@@ -2,6 +2,10 @@
 
 The purpose of violence detection is to determine whether or not a violent action has occurred. This topic grew in popularity due to the need to develop appropriate and automatic violence detection systems that investigated visual data obtained from security cameras positioned in various regions. In this work, we used pre-trained deep neural networks to provide a low-complexity strategy for detecting violence. To detect whether a violent action happened, the extracted features from pre-trained models were pooled and given into a fully-connected layer. Even with the most powerful and accurate methodologies, at the end of the day it all hinges on the fact that if the footage is captured flawlessly with perfect vision, the experimental results demonstrated the efficiency of the suggested low-complexity technique, sequential style methodology, is a trustable, sturdy, and efficient model for the job of sensing and categorizing four distinct violent events in comparison to existing approaches that use time-consuming systems such as recurrent networks.
 
+## Problem Statement
+
+Since the beginning of time, violence has been a part of this planet. It's been that manner ever since humanity's inception. Tim Larkin has said that bloodshed will mostly never be the way out, but one time or one day it's the only answer and ignoring it will lead to a bad situation.There has been tremendous development in technology across all fields. It has affected all walks of life, and we can see the fruits it has borne. This can be especially seen in surveillance systems. We're able to view and gather additional data than it has ever been. Despite this, crimes are still a common occurrence. We believe that there's still untapped potential in surveillance systems. We place a high value on CCTV and surveillance systems, which are found at airports, malls, train stations, homes, and other public spaces. As we all know, human error can occur, and a crime can occur in a fraction of a second, which may go unnoticed by a worker who is watching. Therefore, to increase the sense security among public we present a completely unique feature using transfer learning methodology and our CNN model that's supported by means of a Spatio-temporal model and uses appearance, background motion compensation, and long-term motion information. 
+
 ## Violence Detection architecture
 
 ![ArchitecfinalsemFINAL](https://user-images.githubusercontent.com/59199696/169958695-904278c7-4038-4b18-97de-f500df118fe1.jpg)
@@ -76,3 +80,31 @@ We're using 64 batches, epochs of 1, and a learning rate of 0.0003. As shown in 
 ## Conclusion and Future Work
 
 This solution demonstrates that using transfer learning is the optimal strategy for developing a reliable, stable, and efficient model for the job of detecting violence with such a small dataset and computational capabilities. The transfer learning + CNN sequential style methodology achieved a very good accuracy of 0.9364 for the violent categorization task, showing that this model is the finest solution to our paper. The journey, however, doesn't conclude here. We will use these models on various devices, like CCTV and unmanned aerial vehicles (UAV). With this framework and also the growth of technology, the prices of the equipment resources needed have become more affordable, and with the cooperation of presidency agencies, the system may well be further improved and made far more efficient by progressing with the plan of pruning the models so as to form them ready to be deployed on devices with low internal memory units, and that we could install violence sensors in schools, restaurants, airports, and other public places so the authorities will receive an alert on the server and display the live footage to them.
+
+
+## References
+
+[1]	D. C. Luvizon, D. Picard and H. Tabia, "Multi-Task Deep Learning for Real-Time 3D Human Pose Estimation and Action Recognition," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 43, no. 8, pp. 2752-2764, 1 Aug. 2021, doi: 10.1109/TPAMI.2020.2976014.
+
+[2]	Sárándi, István & Linder, Timm & Arras, Kai & Leibe, Bastian. (2020). MeTRAbs: Metric-Scale Truncation-Robust Heatmaps for Absolute 3D Human Pose Estimation. arXiv:2007.07227.
+
+[3]	A. Mumtaz, A. B. Sargano and Z. Habib, "Violence Detection in Surveillance Videos with Deep Network Using Transfer Learning," 2018 2nd European Conference on Electrical Engineering and Computer Science (EECS), 2018, pp. 558-563, doi: 10.1109/EECS.2018.00109.
+
+[4]	Keze Wang, Liang Lin, Chenhan Jiang, Chen Qian, Pengxu Wei, "3D Human Pose Machines with Self-supervised Learning", jan 2019,	arXiv:1901.03798
+
+[5]	Yiming Wang, Lingchao Guo, Zhaoming Lu, Xiangming Wen, Shuang Zhou, Wanyu Meng, "From Point to Space: 3D Moving Human Pose Estimation Using Commodity WiFi", Dec 2020,  	arXiv:2012.14066
+
+[6]	Zhang, Zihao & Hu, Lei & Deng, Xiaoming & Xia, Shihong. (2020). Weakly Supervised Adversarial Learning for 3D Human Pose Estimation from Point Clouds. IEEE Transactions on Visualization and Computer Graphics. PP. 1-1. 10.1109/TVCG.2020.2973076.
+
+[7]	H. Xia and M. Xiao, "3D Human Pose Estimation With Generative Adversarial Networks," in IEEE Access, vol. 8, pp. 206198-206206, 2020, doi: 10.1109/ACCESS.2020.3037829.
+
+[8]	Guoqiang Wei, Cuiling Lan, Wenjun Zeng, Zhibo Chen, "View Invariant 3D Human Pose Estimation", Jan 2019, arXiv:1901.10841
+
+[9]	R. Gu, G. Wang, Z. Jiang and J. -N. Hwang, "Multi-Person Hierarchical 3D Pose Estimation in Natural Videos," in IEEE Transactions on Circuits and Systems for Video Technology, vol. 30, no. 11, pp. 4245-4257, Nov. 2020, doi: 10.1109/TCSVT.2019.2953678.
+
+[10] C. Yang, X. Wang and S. Mao, "RFID-Pose: Vision-Aided Three-Dimensional Human Pose Estimation With Radio-Frequency Identification," in IEEE Transactions on Reliability, vol. 70, no. 3, pp. 1218-1231, Sept. 2021, doi: 10.1109/TR.2020.3030952.
+
+[11] G. Cheron, I. Laptev, and C. Schmid, "P-CNN: Pose-based CNN Features for Action Recognition," in ICCV, 2015.
+
+[12] U. Iqbal, M. Garbade, and J. Gall, "Pose for action - action for pose," FG-2017, 2017. I. Kokkinos, "Ubernet: Training a universal convolutional neural net- work for low-, mid-, and high-level vision using diverse datasets and limited memory," Computer Vision and Pattern Recognition (CVPR), 2017.
+
