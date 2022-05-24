@@ -29,6 +29,8 @@ To classify the videos into four different crime categories or non-violent, we d
 
 We're using 64 batches, epochs of 1, and a learning rate of 0.0003. As shown in the above Figures, in total, we employed 187,414 images for the train set in which we received 50,448 images for arrest, 12,942 images for assault, 101,243 images for arson, and 22,781 images for abuse, and 46,852 images for the validation set in total for the data split in which we received 12,612 images for arrest, 3,235 images for assault, 2,531 images for arson, and 5,695 images for abuse. 
 
+###### Dataset Link: https://www.kaggle.com/datasets/ashwathbaskar/violence-classification-for-the-4-crime-categories
+
 ### Hardware & Software Requirements
 
    Hardware Requirements:
