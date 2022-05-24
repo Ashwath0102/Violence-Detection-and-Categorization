@@ -108,3 +108,7 @@ This solution demonstrates that using transfer learning is the optimal strategy 
 
 [12] U. Iqbal, M. Garbade, and J. Gall, "Pose for action - action for pose," FG-2017, 2017. I. Kokkinos, "Ubernet: Training a universal convolutional neural net- work for low-, mid-, and high-level vision using diverse datasets and limited memory," Computer Vision and Pattern Recognition (CVPR), 2017.
 
+[13] S. Park, S.-b. Lee, and J. Park, "Data augmentation method for improv- ing the accuracy of human pose estimation with cropped images," Pattern Recognit. Lett., vol. 136, pp. 244250, Aug. 2020.
+
+[14] V. Choutas, P. Weinzaepfel, J. Revaud, and C. Schmid, "Potion: Pose motion representation for action recognition," in The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2018.
+
