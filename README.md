@@ -1,8 +1,8 @@
 # Violence-Detection-and-Categorization
 
-The purpose of violence detection is to determine whether or not a violent action has occurred. This topic grew in popularity due to the need to develop appropriate and automatic violence detection systems that investigated visual data obtained from security cameras positioned in various regions. In this work, we used pre-trained deep neural networks to provide a low-complexity strategy for detecting violence. To detect whether a violent action happened, the extracted features from pre-trained models were pooled and given into a fully-connected layer. 
+The purpose of violence detection is to determine whether or not a violent action has occurred. This topic grew in popularity due to the need to develop appropriate and automatic violence detection systems that investigated visual data obtained from security cameras positioned in various regions. In this work, we used pre-trained deep neural networks to provide a low-complexity strategy for detecting violence. To detect whether a violent action happened, the extracted features from pre-trained models were pooled and given into a fully-connected layer. Even with the most powerful and accurate methodologies, at the end of the day it all hinges on the fact that if the footage is captured flawlessly with perfect vision, the experimental results demonstrated the efficiency of the suggested low-complexity technique, sequential style methodology, is a trustable, sturdy, and efficient model for the job of sensing and categorizing four distinct violent events in comparison to existing approaches that use time-consuming systems such as recurrent networks.
 
-Violence Detection architecture diagram,
+## Violence Detection architecture
 
 ![ArchitecfinalsemFINAL](https://user-images.githubusercontent.com/59199696/169958695-904278c7-4038-4b18-97de-f500df118fe1.jpg)
   
@@ -15,4 +15,62 @@ The final module is training, which has two parts.
 
 ![image](https://user-images.githubusercontent.com/59199696/169957662-6ef398a9-28fc-4fc7-94c3-3d9603ba451f.png)
 
-The transfer learning + CNN sequential style methodology achieved a very good accuracy of 0.9364 for the violent categorization task, showing that this model is the finest solution to our paper. The journey, however, doesn't conclude here. We will use these models on various devices, like CCTV and unmanned aerial vehicles (UAV). With this framework and also the growth of technology, the prices of the equipment resources needed have become more affordable, and with the cooperation of presidency agencies, the system may well be further improved and made far more efficient by progressing with the plan of pruning the models so as to form them ready to be deployed on devices with low internal memory units, and that we could install violence sensors in schools, restaurants, airports, and other public places so the authorities will receive an alert on the server and display the live footage to them.
+
+
+### Dataset Description
+
+To classify the videos into four different crime categories or non-violent, we downloaded 200 videos from various sources such as news channel recordings, YouTube, and online posted videos on all other social networking sites, and created four different classes, such as arrest, assault, arson, and abuse, with each class containing 50 videos. We then converted each footage into its frames, which were subsequently turned into images with a width and height of 64 and 64, respectively. In the appropriate crime categories, we received 63,060 images for arrest, 16,177 images for assault, 126,553 images for arson, and 28,476 images for abuse. 
+
+##### Train Data Distribution
+![image](https://user-images.githubusercontent.com/59199696/169960724-b831287f-f353-4e7d-80d4-f614f43c4dfc.png)
+
+##### Test Data Distribution
+![image](https://user-images.githubusercontent.com/59199696/169960827-d97167ad-a852-4d68-9d7b-ef4f3aaa9298.png)
+
+We're using 64 batches, epochs of 1, and a learning rate of 0.0003. As shown in the above Figures, in total, we employed 187,414 images for the train set in which we received 50,448 images for arrest, 12,942 images for assault, 101,243 images for arson, and 22,781 images for abuse, and 46,852 images for the validation set in total for the data split in which we received 12,612 images for arrest, 3,235 images for assault, 2,531 images for arson, and 5,695 images for abuse. 
+
+### Hardware & Software Requirements
+
+   Hardware Requirements:
+   
+   MINIMUM:
+     
+     OS: Windows 7
+     Processor: Intel Core i3 Dual core | AMD Phenom II X4 965
+     Memory (RAM): 8 GB 
+     Graphics: Nvidia GeForce GTX 650, 1 GB | AMD Radeon HD
+     HD 6950, 2 GB
+     DirectX: Version 11
+     Hard Drive: Minimum 100 GB
+     Network: Ethernet connection (LAN) OR a wireless adapter (Wi-Fi)
+     Storage: 8 GB available space
+
+
+   RECOMMENDED:
+    
+    OS: Windows 10
+    Processor: Intel Core i5-2300 | AMD FX-6300
+    Memory (RAM): 32 GB or more
+    Graphics: Nvidia GeForce GTX 660, 2 GB AMD Radeon HD
+    7970, 3 GB
+    DirectX: Version 11
+    Hard Drive: 200 GB or more
+    Network: High-speed Ethernet connection (LAN) OR a wireless adapter (Wi-Fi)
+    Storage: 12 GB available space.
+
+
+
+   Software Requirements:
+    
+    Python
+    Anaconda
+    Jupyter Notebook
+    Pip 19.0 or later
+    CUDA®-enabled card
+    Browser: Firefox, Edge, chrome
+    Sklearn, Plotly, Seaborn, Pandas, Numpy, Matplotlib, Datetime, Av, Cv2, Time, Os, TensorFlow, and Keras are the libraries we'll be utilising.
+
+
+## Conclusion and Future Work
+
+This solution demonstrates that using transfer learning is the optimal strategy for developing a reliable, stable, and efficient model for the job of detecting violence with such a small dataset and computational capabilities. The transfer learning + CNN sequential style methodology achieved a very good accuracy of 0.9364 for the violent categorization task, showing that this model is the finest solution to our paper. The journey, however, doesn't conclude here. We will use these models on various devices, like CCTV and unmanned aerial vehicles (UAV). With this framework and also the growth of technology, the prices of the equipment resources needed have become more affordable, and with the cooperation of presidency agencies, the system may well be further improved and made far more efficient by progressing with the plan of pruning the models so as to form them ready to be deployed on devices with low internal memory units, and that we could install violence sensors in schools, restaurants, airports, and other public places so the authorities will receive an alert on the server and display the live footage to them.
